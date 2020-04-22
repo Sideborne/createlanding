@@ -85,7 +85,7 @@ h3 {
 }
 .main__title {
     background-color: black;
-    background-image: url(images/first.jpg);
+    background-image: url(images/image4.3.png);
     background-size: cover;
     z-index: 0;
     position: relative;
@@ -288,20 +288,23 @@ h3 {
     max-width: 100%;
     margin: 0 auto;
 }
-
+.main__block-two__content__img_overlay {
+    position: absolute;
+    width: 817px;
+    height: 434px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
 .main__block-two__content__img_play {
     position: absolute;
     width: 85px;
     height: 85px;
-    z-index: 2;  
+    z-index: 2;
 }
-
 .main__block-two__content hr{
     border: none;
     border-top: 2px solid #E3B873;
     width: 55px;
 }
-
 .main__block-two__content__text {
     font-family: "NunitoSans";
     font-size: 18px;
@@ -312,21 +315,18 @@ h3 {
     margin: 0 auto;
     margin-bottom: 92px;
 }
-
 .main__block-two__content__form {
     display: flex;
     justify-content: space-between;
     max-width: 769px;
     margin: 0 auto;
 }
-
 .main__block-two__content__form_label {
     font-size: 13px;
     line-height: 21px;
     text-align: left;
     color: rgba(54, 54, 54, 0.5);
 }
-
 .main__block-two__content__form_input {
     border: 0;
     border-bottom: 1px solid rgba(54, 54, 54, 0.3);
@@ -336,7 +336,6 @@ h3 {
     line-height: 23px;
     color: #363636;
 }
-
 .main__block-two__content__form_button {
     width: 200px;
     height: 51px;
@@ -344,11 +343,9 @@ h3 {
     font-size: 13px;
     box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
 }
-
 .form_button_mob {
     display: none;
 }
-
 .main__block-two__content__form_cb {
     opacity: 0;
 }
@@ -361,14 +358,12 @@ h3 {
     position: relative;
     padding-left: 20px;
 }
-
 .main__block-two__content__form_label_cb::before, 
 .main__block-two__content__form_label_cb::after {
     position: absolute;
     content: "";
     display: inline-block;
 }
-
 .main__block-two__content__form_label_cb::before {
     height: 16px;
     width: 16px;
@@ -377,7 +372,6 @@ h3 {
     left: 0px;
     top: 2px;
 }
-
 .main__block-two__content__form_label_cb::after {
     height: 3px;
     width: 7px;
@@ -391,23 +385,19 @@ h3 {
 .main__block-two__content__form_cb .main__block-two__content__form_label_cb::after {
     content: none;
 }
-
 .main__block-two__content__form_cb:checked .main__block-two__content__form_label_cb::after {
     content: "";
 }
-
 .main__block-three {
     padding: 74px 0 130px;
-    background-image: url(images/image6.1.svg);
+    background-image: url(images/Group22.jpg);
     background-position: top 926px left;
     background-repeat: no-repeat;
 }
-
 .main__block-three__content {
     max-width: 1266px;
     text-align: center;
 }
-
 .main__block-three__content h3 {
     color: black;
 }
@@ -415,19 +405,16 @@ h3 {
 .main__block-three__content__img {
     max-width: 392px;
 }
-
 .main__block-three__content__img img {
     display: block;
     max-width: 100%;
     margin: 0 auto;
 }
-
 .main__block-three__content__img-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
 .main__block-three__content__text {
     display: inline-block;
     width: 330px;
@@ -438,26 +425,22 @@ h3 {
     padding: 25px 0 49px 34px;
     text-align: left;
 }
-
 .main__block-three__content__text span {
     font-family: "YesevaOne";
     font-size: 18px;
     line-height: 25px;
     margin: 25px 0 0 0;
 }
-
 .main__block-three__content__text ul {
     padding-left: 15px;
     margin-top: 8px;
 }
-
 .main__block-three__content__text li {
     font-family: "NunitoSans";
     font-size: 13px;
     line-height: 27px;
     color: #959595;
 }
-
 .main__block-three__content__img__button {
     width: 228px;
     height: 54px;
@@ -468,24 +451,20 @@ h3 {
     line-height: 25px;
     font-style: normal;
 }
-
 .main__block-three__content__part-two {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
 .main__block-three__content__part-two__left {
     width: 454px;
     margin: 190px 0 0px 152px;
 }
-
 .main__block-three__content__part-two__left-block {
     display: flex;
     text-align: left;
     padding: 43px 0;
 }
-
 .main__block-three__content__part-two__left-block p {
     font-family: "NunitoSans";
     font-size: 14px;
@@ -495,7 +474,6 @@ h3 {
     width: 316px;  
     margin: auto 0 auto 8px;
 }
-
 .main__block-three__content__part-two__left-block__num {
     width: 58px;
     height: 58px;
@@ -513,59 +491,48 @@ h3 {
     justify-content: center;
     align-items: center;
 }
-
 .black__form-one {
     width: 506px;
     height: 509px;
     background-color: black;
     margin: 230px 0 0 0;
 }
-
 .black__form-one__content {
     flex-direction: column;
 }
-
 .black__form-one__content p {
     font-size: 18px;
     line-height: 26px;
     margin: 28px 0 39px;
 }
-
 .black__form-one__label {
     color: rgba(255, 255, 255, 0.5);
     margin-left: 49px;
 }
-
 .black__form-one__input {
     background: black;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     margin-bottom: 48px;
     width: 408px;
 }
-
 .black__form-one__input::placeholder{
     color: white;
 }
-
 .black__form-one__cb {
     text-align: left;
     margin: -55px 0 0 48px;
 }
-
 .black__form-one__cb-label {
     color: white;
 }
-
 .black__form_button {
     margin: 39px 0 0 244px;
     width: 213px;
 }
-
 .pig_and_text {
     display: flex;
     margin: 0 0 130px 762px;
 }
-
 .pig_and_text p {
     text-align: left;
     width: 316px;
@@ -575,7 +542,6 @@ h3 {
     color: #E3B873;
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 }
-
 .pig_img {
     background: #E3B873;
     box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
@@ -586,13 +552,11 @@ h3 {
     justify-content: center;
     align-items: center;
 }
-
 .main__block-plus {
-    background-image: url(images/background.svg);
+    background-image: url(images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .main__block-plus__overlay {
     top: 0;
     bottom: 0;
@@ -600,30 +564,24 @@ h3 {
     right: 0;
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 .main__block-plus__content {
     max-width: 1266px;
     display: flex;
     justify-content: space-between;
 }
-
 .main__block-plus__content__left__ul {
     list-style: none;
     padding-left: 0;
 }
-
 .main__block-plus__content__left__li {
     margin: 11px 0;
 }
-
 .main__block-plus__content__left {
     text-align: left;
 }
-
 .main__block-plus__content__left p {
     margin: 12px 0;
 }
-
 .main__block-plus__content__left h2 {
     font-family: "YesevaOne";
     font-size: 27px;
@@ -632,42 +590,35 @@ h3 {
     color: #E3B873;
     margin: 138px 0 47px;
 }
-
 .main__block-plus__content__left a {
     font-size: 20px;
     line-height: 38px;
 }
-
 .main__block-plus__content__left a:hover {
     color: #E3B873;
     border-bottom: #E3B873 solid 1px;
     padding-bottom: 1px; 
 }
-
 .main__block-plus__content__right {
     display: flex;
     justify-content: space-between;
 }
-
 .main__block-plus__content__right_img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     position: relative;
 }
-
 .img1 {
     height: 946px;
     margin: -41px 0 -41px 160px;
 }
-
 .img2 {
     height: 937px;
     margin-top: -113px;
 }
-
 .main__block-four {
-    background-image: url(images/towers1.svg);
+    background-image: url(images/towers1.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -678,18 +629,15 @@ h3 {
     max-width: 1266px;
     text-align: center;
 }
-
 .main__block-four__content h3 {
     color: black;
 }
-
 .main__block-four__content-p {
     font-size: 18px;
     line-height: 29px;
     /* text-align: center; */
     color: #363636;
 }
-
 .main__block-four__content__client {
     width: 376px;
     height: 428px;
@@ -697,17 +645,14 @@ h3 {
     background: #FFFFFF;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
 }
-
 .main__block-four__content__client__face_name {
     display: flex;
 }
-
 .main__block-four__content__client__face_name img {
     border-radius: 50%;
     width: 72px;
     height: 72px;
 }
-
 .main__block-four__content__client__face_name p {
     font-family: "YesevaOne";
     font-size: 18px;
@@ -716,7 +661,6 @@ h3 {
     margin: auto 0 auto 23px;
     text-align: left;
 }
-
 .main__block-four__content__client__feedback {
     font-size: 13px;
     line-height: 23px;
@@ -724,28 +668,25 @@ h3 {
     text-align: left;
     margin-top: 22px;
 }
-
 .block__four__button {
     width: 294px;
     height: 54px;
     margin: 60px 0 0 -20px;
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
     cursor: initial;
     box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
 }
-
 .block__four__button span {
     margin: auto 0 ;
 }
-
 .main__block-five {
-    background-image: url(images/downtowers.svg);
+    background-image: url(images/towers.jpg);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .main__block-five__overlay {
     position: absolute;
     top: 0;
@@ -755,7 +696,6 @@ h3 {
     background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
     margin-top: -12px;
 }
-
 .form-two {
     position: relative;
     margin: 0;
@@ -765,7 +705,6 @@ h3 {
     padding: 34px 182px;
     top: -223px;
 }
-
 .form-two p {
     font-family: "YesevaOne";
     font-size: 20px;
@@ -773,70 +712,56 @@ h3 {
     text-transform: uppercase;
     margin: 0 0 46px;
 }
-
 .black__form-two__content {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
 }
-
 .form-two__label {
     margin: 0;
 }
-
 .form-two__label2 {
     margin: 31px 0 34px;
 }
-
 .black__form-two__input1 {
     margin: 0;
     width: 231px;
 }
-
 .black__form-two__input2 {
     margin: 0;
     width: 517px;
 }
-
 .form-two__cb {
     margin: 0 auto;
 }
-
 .black__form-two_button {
     margin: 50px 0 0;
     width: 200px;
 }
-
 .main__block-five__content {
     max-width: 925px;
     text-align: center;
 }
-
 .main__block-five__address {
     color: #E3B873;   
     top: -171px;
     position: relative;
 }
-
 .main__block-five__icons {
     position: relative;
     top: -145px;
 }
-
 .main__block-five__icons img {
     margin: 0 8px 0;
 }
-
 .google_map {
     position: relative;
     max-width: 925px;
     top: -100px;
 }
-
 .footer-container {
     height: 133px;
 }
-
 .main__block-five__mob, .we_realize_mob {
     display: none;
 }
