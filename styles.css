@@ -28,9 +28,18 @@ a:hover {
     color: #E3B873;
     text-decoration: none;
 }
-h1 , h2 , h3 {
+h1 , h2, h3 {
     font-style: normal;
     font-weight: normal;
+}
+h3 {
+    font-family: Yeseva One;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
 }
 .header, .footer {
     background-color: black;
@@ -68,6 +77,7 @@ h1 , h2 , h3 {
     font-size: 11px;
     color: white;
     cursor: pointer;
+    border: none;
 }
 .header-menu__button, .footer-menu__button{
     width: 161px;
@@ -388,7 +398,7 @@ h1 , h2 , h3 {
 
 .main__block-three {
     padding: 74px 0 130px;
-    background-image: url(images/image6.1.png);
+    background-image: url(images/image6.1.svg);
     background-position: top 926px left;
     background-repeat: no-repeat;
 }
@@ -578,7 +588,7 @@ h1 , h2 , h3 {
 }
 
 .main__block-plus {
-    background-image: url(images/background.png);
+    background-image: url(images/background.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -657,7 +667,7 @@ h1 , h2 , h3 {
 }
 
 .main__block-four {
-    background-image: url(images/towers1.png);
+    background-image: url(images/towers1.svg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -730,7 +740,7 @@ h1 , h2 , h3 {
 }
 
 .main__block-five {
-    background-image: url(images/downtowers.png);
+    background-image: url(images/downtowers.svg);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
