@@ -283,30 +283,35 @@ h3 {
     justify-content: center;
     margin: 0 auto 63px;
 }
-.main__block-two__content__img-img {
-    display: block;
-    max-width: 100%;
-    margin: 0 auto;
-}
+
 .main__block-two__content__img_overlay {
     position: absolute;
     width: 817px;
     height: 434px;
     background-color: rgba(0, 0, 0, 0.7);
+    }
+
+.main__block-two__content__img-img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
 }
+
 .main__block-two__content__img_play {
     position: absolute;
     width: 85px;
     height: 85px;
-    z-index: 2;
+    z-index: 2;  
 }
+
 .main__block-two__content hr{
     border: none;
     border-top: 2px solid #E3B873;
     width: 55px;
 }
+
 .main__block-two__content__text {
-    font-family: "NunitoSans";
+    font-family: Nunito Sans;
     font-size: 18px;
     line-height: 37px;
     text-align: center;
@@ -315,27 +320,31 @@ h3 {
     margin: 0 auto;
     margin-bottom: 92px;
 }
+
 .main__block-two__content__form {
     display: flex;
     justify-content: space-between;
     max-width: 769px;
     margin: 0 auto;
 }
+
 .main__block-two__content__form_label {
     font-size: 13px;
     line-height: 21px;
     text-align: left;
     color: rgba(54, 54, 54, 0.5);
 }
+
 .main__block-two__content__form_input {
     border: 0;
     border-bottom: 1px solid rgba(54, 54, 54, 0.3);
     width: 231px;
-    outline: none;
+    outline:none;
     font-size: 14px;
     line-height: 23px;
     color: #363636;
 }
+
 .main__block-two__content__form_button {
     width: 200px;
     height: 51px;
@@ -343,27 +352,31 @@ h3 {
     font-size: 13px;
     box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
 }
+
 .form_button_mob {
     display: none;
 }
+
 .main__block-two__content__form_cb {
     opacity: 0;
 }
 .main__block-two__content__form_label_cb {
     display: inline-block;
-    font-family: "NunitoSans";
+    font-family: Nunito Sans;
     font-size: 14px;
     line-height: 23px;
     color: #181818;
     position: relative;
     padding-left: 20px;
 }
+
 .main__block-two__content__form_label_cb::before, 
 .main__block-two__content__form_label_cb::after {
     position: absolute;
     content: "";
     display: inline-block;
 }
+
 .main__block-two__content__form_label_cb::before {
     height: 16px;
     width: 16px;
@@ -372,6 +385,7 @@ h3 {
     left: 0px;
     top: 2px;
 }
+
 .main__block-two__content__form_label_cb::after {
     height: 3px;
     width: 7px;
@@ -382,12 +396,15 @@ h3 {
     top: 7px;
     color: white;
 }
-.main__block-two__content__form_cb .main__block-two__content__form_label_cb::after {
+
+.main__block-two__content__form_cb + .main__block-two__content__form_label_cb::after {
     content: none;
 }
-.main__block-two__content__form_cb:checked .main__block-two__content__form_label_cb::after {
+
+.main__block-two__content__form_cb:checked + .main__block-two__content__form_label_cb::after {
     content: "";
 }
+
 .main__block-three {
     padding: 74px 0 130px;
     background-image: url(images/Group22.jpg);
