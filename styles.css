@@ -368,6 +368,7 @@ h3 {
     color: #181818;
     position: relative;
     padding-left: 20px;
+    cursor: pointer;
 }
 
 .main__block-two__content__form_label_cb::before, 
